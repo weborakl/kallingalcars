@@ -1,0 +1,608 @@
+    body{
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .background{
+        display: none;
+    }
+
+    .newdiv{
+        display: none;
+    }
+
+
+    .root {
+        margin: 0%;
+        padding: 0%;
+        background-color: rgb(248, 248, 248);
+        width: 100%;
+        height: 650px;
+        padding-bottom: 60px;
+    }
+
+    .nav {
+        background-color: #121212;
+        width: 100%;
+        height: 70px;
+        margin: auto;
+        border-radius: 0px 0px 30px 30px;
+        text-align: center;
+    }
+
+    .logonavweb{
+        width: auto;
+        height: 22px;
+        margin-top: 22px;
+        float: left;
+        margin-left: 5%;
+    }
+    .logonav{
+       display: none;
+    }
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li {
+        float: right;
+       
+        
+       
+    }
+
+    .navtexttwo{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0%;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 11pt;
+        margin-right: -50px;
+
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 24px 50px;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 11pt;
+    }
+
+    .iconjoinus{
+        
+        width: 100%;
+        height: 150px;
+        color: rgb(20, 20, 20);
+        text-align: center;
+        font-size: 14pt;
+        font-family: "Montserrat", sans-serif;
+        margin-top: 30px;
+      
+    }
+
+    .buttoniconweb{
+        width: 30px;
+        margin-top: 10px;
+        
+    }
+      
+    .main {
+        display: flex;
+        margin-top: -15px;
+    }
+
+    .mobilebuttons{ 
+        width: 50%;
+        height: 150px;
+        
+    }
+
+    .mobilebuttonstwo{
+        width: 50%;
+        height: 150px;
+    }
+
+    .mbsocialbutton{
+        width: 250px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+
+    .mbsocialbuttontwo{
+        width: 250px;
+        height: auto;
+        display: block;
+        margin-left: 20px;
+        margin-right: auto;
+        margin-top: 10px;   
+    }
+
+
+
+
+.hithere{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.giftboxone{
+    display: none;
+}
+
+
+.hitheretext{
+    font-size: 28px;
+    padding-top: 25px;
+    margin-bottom: 0%;
+    color: #121212;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.hitheretext2{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #121212;
+    font-family: "Montserrat", sans-serif;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+.giftbox{
+    display: none;
+}
+
+
+.callnowtextweb{
+    text-align: center;
+        font-size: 13.5pt;
+        font-family: "Montserrat", sans-serif;
+        margin-top: -6px;
+        color: #121212;
+        font-weight: 600;
+        animation: blinker 2s linear infinite;
+        text-decoration: none;
+      
+        
+    }
+
+    @keyframes blinker {
+        35% {
+          opacity: 0;
+        }
+      }
+
+.mobilehithere{
+    display: none;
+}
+
+.joinusweb{
+    font-family: "Montserrat", sans-serif;
+    font-size: 13pt;
+    margin-top: 65px;
+    color: #121212;
+    text-align: center;
+}
+
+
+
+.logo{
+    width: 180px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+  
+}
+
+
+.secondnav{
+    display: none;
+}
+
+
+
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer img {
+    width: 130px;
+    height: auto;
+}
+.footer p {
+    margin: 5px 0;
+}
+
+.footer {
+    background-color:#121212;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    width: 100%;
+    position: relative; /* Ensures it stays in place */
+    bottom: 0;
+    margin-top: auto; /* Pushes it to the bottom */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px) 
+
+
+
+
+{
+
+
+   
+    
+
+    .root {
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 900px;
+        padding-bottom: 500px;
+    }
+
+   
+
+    .background{
+        width: 100%;
+        height: auto;
+        margin: 0%;
+        padding: 0%;
+        margin-bottom: -60px;
+        display: inline;
+    }
+    .navtext {
+        display: none;
+    }
+    .navtexttwo {
+        display: none;
+    }
+   
+
+
+    .nav {
+        background-image: url('img/bjnav.jpg');
+        background-color: #7c583a;
+        width: 100%;
+        height: 80px;
+        margin: auto;
+        border-radius: 0px 0px 60px 60px;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        position: fixed;
+        top: 0%;
+    }
+
+    .logonav{
+        width: auto;
+        height: 26px;
+        margin-top: 27px;
+        float: none;
+        margin-left: 8px;
+        display: inline-flex;
+    }
+
+    .logonavweb{
+      display: none;
+    }
+
+    
+    
+    .hithere{
+        display: none;
+    }
+    
+    .mobilehithere{
+        display: list-item;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 100px;
+        
+    }
+
+    .welcome{
+        color: #0b0b0b;
+        text-align: center;
+        font-size: 10pt;
+        font-weight: 400;
+        margin-top: 55px;
+        font-family: "Raleway", sans-serif;
+        letter-spacing: 6px;
+
+        
+    }
+    .welcome2{
+        color: #0b0b0b;
+        text-align: center;
+        font-size: 15pt;
+       font-weight: 800;
+       margin-top: -9px;
+        font-family: "Raleway", sans-serif;
+        letter-spacing: 1px;
+        
+    }
+
+    .callnowtext{
+            text-align: center;
+            font-size: 111%;
+            font-family: "Montserrat", sans-serif;
+            margin-top: -6px;
+            color: #0b0b0b;
+            font-weight: 600;
+            animation: blinker 2s linear infinite;
+            text-decoration: none;
+            letter-spacing: 1px;
+            
+        }
+    
+   
+
+    @keyframes blinker {
+        30% {
+          opacity: 0;
+        }
+      }
+
+
+
+   
+    .thankyou{
+        text-align: center;
+        font-size: 10.5pt;
+        font-family: "Raleway", sans-serif;
+        line-height: 17px;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+        color: #0b0b0b;
+        margin-bottom: 16px;
+    }
+
+
+
+    .secondnav{
+        background-image: url('img/bj.jpg');
+        width: 100%;
+        height: 800px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+        border-radius: 60px 60px 0px 0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: list-item;
+        position: absolute;
+        text-align: center;
+      
+        
+        
+    }
+
+    .joinus{
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+        margin-top: 66px;
+        color: #0b0b0b;
+        letter-spacing: 0px;
+        text-align: center;
+        font-weight:300;
+        margin-bottom: 40px;
+    }
+
+
+    .buttons{
+        margin: auto;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        background-color: #0b0b0b;
+        height: 300px;
+        
+    }
+
+
+    .socialbutton{
+        width: 270px;
+        margin-top: 0%;
+        height: auto;
+    
+    }
+    
+
+    .mobilebuttons{
+        display: none;
+    }
+
+    .mobilebuttonstwo{
+        display: none;
+    }
+
+
+    .buttonicon{
+        width: 100%;
+        height: 41px;
+        margin-bottom: 4px;
+        margin-top: -25px;
+    }
+
+
+    .newdiv{
+        display: inline;
+    }
+
+
+    .footer {
+        background-image: url('img/bjnav.jpg');
+        background-color: #081112;
+        color: white;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 25px;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        width: 100%;
+        position: relative; /* Ensures it stays in place */
+        bottom: 0;
+        margin-top: auto; /* Pushes it to the bottom */
+    }
+
+    .footer img {
+        width: 140px;
+        height: auto;
+    }
+
+
+
+
+
+
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        padding-top: 25px;
+        
+
+    }
+    
+    .social-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 220px;
+        padding: 4px 4px;
+        margin-top: 3px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-weight: bold;
+        transition: transform 1.3s ease-in-out;
+        animation: pulse 1s infinite alternate;
+        margin: auto;
+    }
+   
+
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        100% { transform: scale(1.05); }
+    }
+        
+
+    
+    .social-text {
+        flex-grow: 1;
+        text-align: left;
+        padding-left:35px;
+    }
+    .whatsapp { background: #7c583a; }
+    .whatsapp:hover { background: #3f2c1c; }
+    .instagram { background: #7c583a; }
+    .instagram:hover { background: #3f2c1c; }
+    .facebook { background: #7c583a; }
+    .facebook:hover { background: #3f2c1c; }
+    .call { background: #7c583a; }
+    .call:hover { background: #3f2c1c;   }
+
+
+
+    .icon-container {
+        width: 40px;
+        height: 40px;
+        background: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-button img {
+        width: 20px;
+        height: 20px;
+        filter: brightness(0) invert(0);
+    }
+
+
+    
+    
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+   
+
+
+    
+    
+}
+    
+
+
+
+
+
+
+
+
